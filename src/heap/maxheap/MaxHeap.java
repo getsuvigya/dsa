@@ -76,7 +76,7 @@ public class MaxHeap {
     }
 
     public static void main(String[] args) {
-     int array[] = {97,23,1,16,54,85,32,10};
+     int array[] = {3,4,6,6,3};
         MaxHeap heap = new MaxHeap(array);
         heap.heapsort();
         for (int i=0; i<array.length; i++){
