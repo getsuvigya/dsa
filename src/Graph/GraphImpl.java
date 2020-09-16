@@ -76,6 +76,7 @@ public class GraphImpl implements Graph{
             System.out.println(k);
             List<Integer> adjacencyList = graph.getAdjacentVertices(k);
             for (Integer neighbor:adjacencyList) {
+                if(visited[neighbor]!=1)
                 q.add(neighbor);
             }
         }
